@@ -67,7 +67,9 @@ module Danger
       if inline_mode
         send_inline_comment(errors)
       else
-        raise "not implemented." # TODO: not implemented.
+        errors.each do |error|
+          warn "#{github.html_link("#{error.file_name}#L#{error.line}")} - #{error.message}"
+        end
       end
     end
 
