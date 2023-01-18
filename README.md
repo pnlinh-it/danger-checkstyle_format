@@ -2,11 +2,15 @@
 
 # danger-checkstyle_format
 
-Danger plugin for checkstyle formatted xml file.
+Danger plugin for checkstyle formatted xml file support `inline_mode`
 
 ## Installation
 
-    $ gem install danger-checkstyle_format
+```
+source "https://rubygems.pkg.github.com/pnlinh-it" do
+  gem "danger-checkstyle_format", "0.1.1"
+end
+```
 
 ## Usage
 
