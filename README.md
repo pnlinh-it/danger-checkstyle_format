@@ -11,15 +11,19 @@ Danger plugin for checkstyle formatted xml file.
 ## Usage
 
 <blockquote>Parse the XML file, and let the plugin do your reporting
-  <pre>
+
+```ruby
 checkstyle_format.base_path = Dir.pwd
-checkstyle_format.report 'app/build/reports/checkstyle/checkstyle.xml'</pre>
+checkstyle_format.report('app/build/reports/checkstyle/checkstyle.xml', inline_mode = false)
+```
 </blockquote>
 
 <blockquote>Parse the XML text, and let the plugin do your reporting
-  <pre>
+
+```ruby
 checkstyle_format.base_path = Dir.pwd
-checkstyle_format.report_by_text '<?xml ...'</pre>
+checkstyle_format.report_by_text '<?xml ...'
+```
 </blockquote>
 
 ## Development
