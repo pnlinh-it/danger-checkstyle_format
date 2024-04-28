@@ -25,9 +25,10 @@ module Danger
     # Report checkstyle warnings
     #
     # @return   [void]
-    def report(file, inline_mode = true)
+    def report(file, inline_mode: true)
       raise "Please specify file name." if file.empty?
       raise "No checkstyle file was found at #{file}" unless File.exist? file
+
       errors = parse(File.read(file))
 
       send_comment(errors, inline_mode)
@@ -36,8 +37,9 @@ module Danger
     # Report checkstyle warnings by XML text
     #
     # @return   [void]
-    def report_by_text(text, inline_mode = true)
+    def report_by_text(text, inline_mode: true)
       raise "Please specify xml text." if text.empty?
+
       errors = parse(text)
 
       send_comment(errors, inline_mode)
@@ -54,13 +56,12 @@ module Danger
       end
       base_path_suffix = @base_path.end_with?("/") ? "" : "/"
       base_path = @base_path + base_path_suffix
-      elements = present_elements.flat_map do |parent|
+      present_elements.flat_map do |parent|
         parent.nodes.map do |child|
           CheckstyleError.generate(child, parent, base_path)
         end
       end
 
-      elements
     end
 
     def send_comment(errors, inline_mode)

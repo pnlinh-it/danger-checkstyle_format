@@ -3,7 +3,7 @@ CheckstyleError = Struct.new(:file_name, :line, :column, :severity, :message, :s
     CheckstyleError.new(
       parent_node[:name].sub(/^#{base_path}/, ""),
       node[:line].to_i,
-      node[:column].nil? ? nil : node[:column].to_i,
+      node[:column]&.to_i,
       node[:severity],
       node[:message],
       node[:source]
