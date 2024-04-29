@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="4.3">
+<file name="src/main/java/com/pnlinh/android/boilerplate/theme/builder/ui/component/ComponentViewHolder.kt">
+	<error line="172" column="9" severity="warning" message="The function create appears to be too complex based on Cyclomatic Complexity (complexity: 18). Defined complexity threshold for methods is set to &apos;15&apos;" source="detekt.CyclomaticComplexMethod" />
+	<error line="35" column="1" severity="warning" message="com.pnlinh.android.boilerplate.theme.builder.ui.component.Component.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/BoilerplateApplication.kt">
+	<error line="44" column="29" severity="warning" message="This empty block of code can be removed." source="detekt.EmptyFunctionBlock" />
+	<error line="51" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/BoilerplateApplication.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="39" column="30" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/fcm/FcmReceiver.kt">
+	<error line="24" column="62" severity="warning" message="This empty block of code can be removed." source="detekt.EmptyFunctionBlock" />
+	<error line="14" column="5" severity="warning" message="method `onReceive()` should be declared before companion object." source="detekt.ClassOrdering" />
+	<error line="24" column="5" severity="warning" message="method `onPushOpen()` should be declared before companion object." source="detekt.ClassOrdering" />
+	<error line="28" column="5" severity="warning" message="method `onPushReceive()` should be declared before companion object." source="detekt.ClassOrdering" />
+	<error line="14" column="18" severity="warning" message="Function onReceive has 3 return statements which exceeds the limit of 2." source="detekt.ReturnCount" />
+	<error line="32" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/fcm/FcmReceiver.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="24" column="28" severity="warning" message="Function parameter `context` is unused." source="detekt.UnusedPrivateMember" />
+	<error line="24" column="46" severity="warning" message="Function parameter `intent` is unused." source="detekt.UnusedPrivateMember" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/fcm/FcmService.kt">
+	<error line="22" column="62" severity="warning" message="This empty block of code can be removed." source="detekt.EmptyFunctionBlock" />
+	<error line="24" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/fcm/FcmService.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="18" column="31" severity="warning" message="Function parameter `context` is unused." source="detekt.UnusedPrivateMember" />
+	<error line="18" column="49" severity="warning" message="Function parameter `intent` is unused." source="detekt.UnusedPrivateMember" />
+	<error line="22" column="28" severity="warning" message="Function parameter `context` is unused." source="detekt.UnusedPrivateMember" />
+	<error line="22" column="46" severity="warning" message="Function parameter `intent` is unused." source="detekt.UnusedPrivateMember" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/fcm/NotificationPayload.kt">
+	<error line="193" column="14" severity="warning" message="The caught exception is too generic. Prefer catching specific exceptions to the case that is currently handled." source="detekt.TooGenericExceptionCaught" />
+	<error line="193" column="14" severity="warning" message="The caught exception is swallowed. The original exception could be lost." source="detekt.SwallowedException" />
+	<error line="84" column="5" severity="warning" message="Constructor private parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="86" column="5" severity="warning" message="Constructor private parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="38" column="13" severity="warning" message="This expression is unreachable code which should either be used or removed." source="detekt.UnreachableCode" />
+	<error line="41" column="13" severity="warning" message="This expression is unreachable code which should either be used or removed." source="detekt.UnreachableCode" />
+	<error line="48" column="13" severity="warning" message="This expression is unreachable code which should either be used or removed." source="detekt.UnreachableCode" />
+	<error line="196" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/fcm/NotificationPayload.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="189" column="17" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="190" column="18" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="34" column="24" severity="warning" message="This &apos;?: &quot;&quot;&apos; can be replaced with &apos;orEmpty()&apos; call" source="detekt.UseOrEmpty" />
+	<error line="37" column="36" severity="warning" message="This &apos;?: &quot;&quot;&apos; can be replaced with &apos;orEmpty()&apos; call" source="detekt.UseOrEmpty" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/vdi/NetworkResult.kt">
+	<error line="78" column="22" severity="warning" message="The caught exception is too generic. Prefer catching specific exceptions to the case that is currently handled." source="detekt.TooGenericExceptionCaught" />
+	<error line="76" column="22" severity="warning" message="The caught exception is swallowed. The original exception could be lost." source="detekt.SwallowedException" />
+	<error line="32" column="44" severity="warning" message="This &apos;?: &quot;&quot;&apos; can be replaced with &apos;orEmpty()&apos; call" source="detekt.UseOrEmpty" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/transparent_activity/TransparentActivity.kt">
+	<error line="1" column="1" severity="warning" message="Package name should match the pattern: [a-z]+(\.[a-z][A-Za-z0-9]*)*" source="detekt.PackageNaming" />
+	<error line="21" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/transparent_activity/TransparentActivity.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/AcitivityResult.kt">
+	<error line="21" column="7" severity="warning" message="The file name &apos;AcitivityResult&apos; does not match the name of the single top-level declaration &apos;MainActivityResult&apos;." source="detekt.MatchingDeclarationName" />
+	<error line="34" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/AcitivityResult.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/MainActivity.kt">
+	<error line="55" column="32" severity="warning" message="Using `Array&lt;Primitive&gt;` leads to implicit boxing and a performance hit." source="detekt.ArrayPrimitive" />
+	<error line="55" column="5" severity="warning" message="property `bottomNavIds` should be declared before method declarations." source="detekt.ClassOrdering" />
+	<error line="116" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/MainActivity.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="93" column="39" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="95" column="76" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="101" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/fcm/FcmWorker.kt">
+	<error line="23" column="30" severity="warning" message="Used in this way a spread operator causes a full copy of the array to be created before calling a method. This may result in a performance penalty." source="detekt.SpreadOperator" />
+	<error line="64" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/fcm/FcmWorker.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/MainViewModel.kt">
+	<error line="11" column="64" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/MainViewModel.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/notification/ToolNotification.kt">
+	<error line="115" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/notification/ToolNotification.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="77" column="5" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="108" column="51" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/Others.kt">
+	<error line="39" column="62" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/Others.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="3" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="4" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="5" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="7" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/LoginViewModel.kt">
+	<error line="7" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/LoginViewModel.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="6" column="5" severity="warning" message="This comment contains &apos;TODO:&apos; that has been defined as forbidden in detekt." source="detekt.ForbiddenComment" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/PushRepository.kt">
+	<error line="12" column="5" severity="warning" message="method `setUp()` should be declared before companion object." source="detekt.ClassOrdering" />
+	<error line="20" column="5" severity="warning" message="method `migrateTopic()` should be declared before companion object." source="detekt.ClassOrdering" />
+	<error line="28" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/PushRepository.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="27" column="9" severity="warning" message="hasDeviceToken is returning a constant. Prefer declaring a constant instead." source="detekt.FunctionOnlyReturningConstant" />
+	<error line="3" column="34" severity="warning" message="Private property `pushPreference` is unused." source="detekt.UnusedPrivateMember" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/OnboardingViewModel.kt">
+	<error line="5" column="40" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/OnboardingViewModel.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/OnboardingFragment.kt">
+	<error line="39" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/OnboardingFragment.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="19" column="17" severity="warning" message="Private property `viewModel` is unused." source="detekt.UnusedPrivateMember" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/theme/builder/ui/themesummary/SubsystemViewHolder.kt">
+	<error line="24" column="1" severity="warning" message="com.pnlinh.android.boilerplate.theme.builder.ui.themesummary.Subsystem.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/theme/builder/widget/ShapeAttributeView.kt">
+	<error line="54" column="3" severity="warning" message="Variable &apos;shape&apos; could be val." source="detekt.VarCouldBeVal" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/fcm/MyFirebaseInstanceIDService.kt">
+	<error line="38" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/fcm/MyFirebaseInstanceIDService.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/fcm/PushEventProxyService.kt">
+	<error line="70" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/fcm/PushEventProxyService.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="22" column="31" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="42" column="31" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="57" column="31" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/fcm/NotificationHelper.kt">
+	<error line="116" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/fcm/NotificationHelper.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="20" column="34" severity="warning" message="Function parameter `type` is unused." source="detekt.UnusedPrivateMember" />
+	<error line="20" column="52" severity="warning" message="Function parameter `payload` is unused." source="detekt.UnusedPrivateMember" />
+	<error line="73" column="17" severity="warning" message="Private property `manager` is unused." source="detekt.UnusedPrivateMember" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/view/ViewRectActivity.kt">
+	<error line="15" column="5" severity="warning" message="Variable &apos;views&apos; could be val." source="detekt.VarCouldBeVal" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/vdi/QuizPagingSource.kt">
+	<error line="36" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/vdi/QuizPagingSource.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="31" column="24" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="33" column="37" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="25" column="13" severity="warning" message="Private property `response` is unused." source="detekt.UnusedPrivateMember" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/vdi/AppUsagePreference.kt">
+	<error line="32" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/vdi/AppUsagePreference.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/vdi/QuizAdapter.kt">
+	<error line="11" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/vdi/QuizAdapter.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/vdi/Quiz.kt">
+	<error line="9" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/vdi/Quiz.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/vdi/domain/vo/Quiz.kt">
+	<error line="3" column="38" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/vdi/domain/vo/Quiz.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="3" column="25" severity="warning" message="Private property `name` is unused." source="detekt.UnusedPrivateMember" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/vdi/domain/vo/QuizUseCase.kt">
+	<error line="14" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/vdi/domain/vo/QuizUseCase.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/vdi/event/DownloadEventChannel.kt">
+	<error line="20" column="5" severity="warning" message="property `uiHandler` should be declared before companion object." source="detekt.ClassOrdering" />
+	<error line="21" column="5" severity="warning" message="property `executor` should be declared before companion object." source="detekt.ClassOrdering" />
+	<error line="23" column="5" severity="warning" message="property `subscribers` should be declared before companion object." source="detekt.ClassOrdering" />
+	<error line="26" column="5" severity="warning" message="method `subscribe()` should be declared before companion object." source="detekt.ClassOrdering" />
+	<error line="32" column="5" severity="warning" message="method `send()` should be declared before companion object." source="detekt.ClassOrdering" />
+	<error line="38" column="5" severity="warning" message="method `remove()` should be declared before companion object." source="detekt.ClassOrdering" />
+	<error line="60" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/vdi/event/DownloadEventChannel.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/vdi/event/ImageDownloadRepository.kt">
+	<error line="63" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/vdi/event/ImageDownloadRepository.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/vdi/event/Event.kt">
+	<error line="11" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/vdi/event/Event.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/vdi/UpdateDialog.kt">
+	<error line="12" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/vdi/UpdateDialog.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="3" column="1" severity="warning" message="The class UpdateDialog only contains utility functions. Consider defining it as an object." source="detekt.UtilityClassWithPublicConstructor" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/vdi/QuizRepository.kt">
+	<error line="12" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/vdi/QuizRepository.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/LauncherFragment.kt">
+	<error line="43" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/LauncherFragment.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/block/remote/Blocks.kt">
+	<error line="23" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/block/remote/Blocks.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/block/remote/BlockRepository.kt">
+	<error line="42" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/block/remote/BlockRepository.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/main/java/com/pnlinh/android/boilerplate/block/remote/ApiService.kt">
+	<error line="5" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/main/java/com/pnlinh/android/boilerplate/block/remote/ApiService.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/debug/java/com/pnlinh/android/boilerplate/DebugBoilerplateApplication.kt">
+	<error line="69" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/debug/java/com/pnlinh/android/boilerplate/DebugBoilerplateApplication.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="src/debug/java/com/pnlinh/android/boilerplate/DebugActivity.kt">
+	<error line="109" column="2" severity="warning" message="The file /Users/linh/Desktop/Dev/Android/android-boilerplate/app/src/debug/java/com/pnlinh/android/boilerplate/DebugActivity.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="44" column="17" severity="warning" message="Private function `setupInputAlertDialog` is unused." source="detekt.UnusedPrivateMember" />
+	<error line="87" column="17" severity="warning" message="Private property `urlSpan` is unused." source="detekt.UnusedPrivateMember" />
+</file>
+</checkstyle>
